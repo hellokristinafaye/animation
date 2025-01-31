@@ -2,6 +2,11 @@ Overview:
 
 Technologies Used:
 
+- HTML
+- CSS
+  - keyframes
+  - opacity
+
 Features:
 
 Future Development:
