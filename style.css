@@ -26,6 +26,7 @@ ul li {
     width: 30px;
     height: 30px;
     list-style: none;
+    /* the below line has them start at 0 opacity, and the keyframes line lets them grow */
     opacity: 0;
 }
 .square li {
@@ -52,6 +53,7 @@ ul li {
 /* the above rules apply to each li element, depending on which li child of .square it is 
 we've placed them randomly throughout the page with the top/left parameters */
 
+/* this rule makes the squares grow and fade, plus the line in ul li making them start at 0 opacity */
 @keyframes square {
     0% {
         transform: scale(0);
