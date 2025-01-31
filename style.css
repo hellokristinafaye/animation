@@ -28,6 +28,7 @@ ul li {
     list-style: none;
     /* the below line has them start at 0 opacity, and the keyframes line lets them grow */
     opacity: 0;
+    background: #fff;
 }
 .square li {
     top: 50vh;
