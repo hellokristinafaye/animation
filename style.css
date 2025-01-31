@@ -69,3 +69,43 @@ we've placed them randomly throughout the page with the top/left parameters */
         opacity: 0;
     }
 }
+
+
+/* the circles */
+.circle li {
+    bottom: 0;
+    left: 15vw;
+    animation: circle 10s linear infinite;
+}
+.circle li:nth-child(2) {
+    left: 35vw;
+    animation-delay: 2s;
+}
+.circle li:nth-child(3) {
+    left: 55vw;
+    animation-delay: 6s;
+}
+.circle li:nth-child(4) {
+    left: 75vw;
+    animation-delay: 4s;
+}
+.circle li:nth-child(5) {
+    left: 90vw;
+    animation-delay: 8s;
+}
+
+@keyframes circle {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 1;
+        bottom: 0;
+        border-radius: 0;
+    }
+    100% {
+        transform: scale(5) rotate(1000deg);
+        opacity: 0;
+        bottom: 90vh;
+        border-radius: 50%;
+    }
+}
+/* oh SNAP the above circle rules make it so the 5 circles basically start as squares at the bottom of the screen, then spin, fade, and morph into circles before they reach the top of hte screen. pretty cool!  */
