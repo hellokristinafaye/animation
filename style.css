@@ -56,11 +56,11 @@ we've placed them randomly throughout the page with the top/left parameters */
 /* this rule makes the squares grow and fade, plus the line in ul li making them start at 0 opacity */
 @keyframes square {
     0% {
-        transform: scale(0);
+        transform: scale(0) rotateY(0deg);
         opacity: 1;
     }
     100% {
-        transform: scale(5);
+        transform: scale(5) rotateY(1000deg);
         opacity: 0;
     }
 }
