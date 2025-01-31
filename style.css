@@ -19,3 +19,33 @@ h1 {
     font-size: 70px;
     z-index: 1;
 }
+/* I believe the below rule creates some squares */
+ul li {
+    position: absolute;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+}
+.square li {
+    top: 50vh;
+    left: 45vw;
+}
+.square li:nth-child(2) {
+    top: 80vh;
+    left: 10vw;
+}
+.square li:nth-child(3) {
+    top: 80vh;
+    left: 85vw;
+}
+.square li:nth-child(4) {
+    top: 10vh;
+    left: 70vw;
+}
+.square li:nth-child(5) {
+    top: 10vh;
+    left: 10vw;
+}
+/* the above rules apply to each li element, depending on which li child of .square it is 
+we've placed them randomly throughout the page with the top/left parameters */
